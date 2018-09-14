@@ -8,16 +8,16 @@ The document captures the transformations performed by the run_analysis.R progra
 
 ### Input Files
 - Training Data:
--- x_train.txt
--- y_train.txt
--- subject_train.txt
+  - x_train.txt
+  - y_train.txt
+  - subject_train.txt
 - Test Data:
--- x_test.txt
--- `y_test.txt
--- subject_test.txt
+  - x_test.txt
+  - `y_test.txt
+  - subject_test.txt
 - Labels:
--- activity_labels.txt
--- features.txt
+  - activity_labels.txt
+  - features.txt
 
 ### Transformations
 - Column names have been made more descriptive. Names like 'tBody', 'Mag', 'Gyro' replaced with 'TimeBody', 'Magnitude', 'Gryoscope', etc. 
