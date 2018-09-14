@@ -1,6 +1,6 @@
 # Coursera Course Project: Getting and Cleansing Data
 
-Execute the run_analysis.R script.
+Execute the `run_analysis.R` script.
 
 The script does the following:
 - Merges the training and the test sets to create one data set.
