@@ -79,5 +79,5 @@ dtSubset$Subject <- as.factor(dtSubset$Subject)
 dtSubset <- data.table(dtSubset)
 
 tidy = ddply(dtSubset, c("Subject","Activity"), numcolwise(mean))
-write.table(tidy, file = "tidy.txt")
+write.table(tidy, file = "tidy.txt", row.names = FALSE, quote = FALSE)
 
